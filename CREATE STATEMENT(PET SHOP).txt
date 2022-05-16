@@ -1,0 +1,45 @@
+Database        : crn:v1:bluemix:public:dashdb-for-transactions:eu-gb:a/00bca6b94578455d8d2094ee96e30199:8236399a-e652-4c43-a36f-2c9ff55e48cc::
+Host name       : db2-icd-prod-eu-gb-db-wuoff-private-alb.db2.databases.appdomain.cloud                                                        
+Authorization Id: bkv10446                                                                                                                     
+Run method      : JDBC                                                                                                                         
+Date            : Mar 20, 2022 8:33:46 PM                                                                                                      
+Status          : completed                                                                                                                    
+
+CREATE TABLE PETSALE (
+    ID INTEGER NOT NULL,
+    PET CHAR(20),
+    SALEPRICE DECIMAL(6,2),
+    PROFIT DECIMAL(6,2),
+    SALEDATE DATE
+    )
+
+CREATE TABLE PET (
+    ID INTEGER NOT NULL,
+    ANIMAL VARCHAR(20),
+    QUANTITY INTEGER
+    )
+
+
+
+=======================================================================================
+CREATE TABLE PETSALE (
+    ID INTEGER NOT NULL,
+    PET CHAR(20),
+    SALEPRICE DECIMAL(6,2),
+    PROFIT DECIMAL(6,2),
+    SALEDATE DATE
+    )
+
+Run time (seconds): 0.151    
+Status            : succeeded
+
+=======================================================================================
+CREATE TABLE PET (
+    ID INTEGER NOT NULL,
+    ANIMAL VARCHAR(20),
+    QUANTITY INTEGER
+    )
+
+Run time (seconds): 0.059    
+Status            : succeeded
+
